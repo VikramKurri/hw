@@ -5,6 +5,7 @@
   },
   "env": {
     "test": "100"
+    "check": "200"
   },
   "formation": {
   },
