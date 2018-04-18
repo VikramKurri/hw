@@ -1,0 +1,19 @@
+{
+  "name": "hws",
+  "scripts": {
+    "postdeploy": "bin/setup"
+  },
+  "env": {
+    "test": "100"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-java"
+    }
+  ]
+}
